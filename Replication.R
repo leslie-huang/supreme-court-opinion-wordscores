@@ -221,7 +221,7 @@ text(ws_mq_scores$`Wordscore position`, ws_mq_scores$`Martin-Quinn position`, ws
 dev.copy(pdf, "mq_ws.pdf")
 dev.off()
 
-############################################################################
+##########################################################################
 # linear model
 abs_cases <- cases_df
 abs_cases$max_concur <- abs(abs_cases$max_concur)
